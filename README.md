@@ -1,6 +1,6 @@
-# C-FTS: Monocular Video 3D Human Pose Estimation Based on Cross-Attention of Frequency, Time and Space Domains
+# F-MCA: Frequency-Driven Multiscale Cross-Domain Attention for Eﬃcient Monocular Video 3D Human Pose Estimation
 
-This is the official implementation of "Monocular Video 3D Human Pose Estimation Based on Cross-Attention of Frequency, Time and Space Domains" on PyTorch platform.
+This is the official implementation of "Frequency-Driven Multiscale Cross-Domain Attention for Eﬃcient Monocular Video 3D Human Pose Estimation" on PyTorch platform.
 
 ## Demo
 <div align=center>
@@ -11,11 +11,11 @@ This is the official implementation of "Monocular Video 3D Human Pose Estimation
 </div>
 
 ## The released codes include:
-    checkpoint/:                        the folder for model weights of C-FTS
+    checkpoint/:                        the folder for model weights of F-MCA
     dataset/:                           the folder for data loader
     common/:                            the folder for basic functions
-    model/:                             the folder for C-FTS network
-    run_human36M.py and run_3dhp.py:    the python code for C-FTS model training
+    model/:                             the folder for F-MCA network
+    run_human36M.py and run_3dhp.py:    the python code for F-MCA model training
 
 ## Environment
 Make sure you have the following dependencies installed:
